@@ -1,0 +1,37 @@
+/*KHANT SI THU HEIN's CSS WORK*/
+
+/*For Page (1) (Understanding Section)*/
+
+@media (max-width: 768px) {
+
+    /* Base mobile layout: image left, text right */
+    .pair-block {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left !important;
+        gap: 15px;
+    }
+
+    /* Reverse layout: text left, image right */
+    .pair-block.reverse {
+        flex-direction: row-reverse;
+    }
+
+    /* Image and text proportions */
+    .pair-block img {
+        width: 60% !important;
+        height: auto;
+    }
+
+    .pair-block p {
+        width: 55%;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Reduce margin around whole block */
+    .pair-block {
+        margin-bottom: 2rem;
+    }
+}
