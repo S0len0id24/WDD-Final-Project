@@ -15,38 +15,76 @@
 
 		<!-- KHANT SI THU HEIN'S WORK (PAGE 1) -->
 
+		<!-- navbar-expand-lg is used for describing nav bar length form for desktop size -->
+	  	<nav class="navbar navbar-expand-lg bg-success" >
+	  		<div class="container">
+	  			<!-- Brand (TOPIC NAME) -->
+			    <a class="navbar-brand fw-bold text-white" href="home.html">
+			      <img src="images/logo/logo.png" width="60px">
+			      Climate Action
+			    </a>
 
-	  	<!-- navbar-expand-lg is used for describing nav bar length form for desktop size -->
-	  	<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+			    <!-- Mobile Toggle (Hamburger Menu)-->
+			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+			      <span class="navbar-toggler-icon"></span>
+			    </button>
 
-	  		<!-- container-fluid makes the screen width for nav bar so that those can be at the each edge side of the screen -->
-	    	<div class="container-fluid">
-
-	    		<!-- Title Text in nav bar -->
-	      		<a class="navbar-brand  align-items-center fw-bold" href="index.html">
-	      			<img src="images/logo/logo.png" alt="Logo" width="70" height="70" class="me-3">
-				    Climate Action
-				</a>
-
-	      		<!-- hamburger menu for phone size -->
-	      		<!-- mainNav is the collapsible section the button controls -->
-	      		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-	        		<span class="navbar-toggler-icon"></span>
-	      		</button>
-
-	      		<!-- nav link -->
+		    	<!-- nav link -->
 	      		<!-- collapse means div to be hidden on small screens -->
-	      		<div  class="collapse navbar-collapse" id="mainNav">
-	        		<ul class="navbar-nav ms-auto">
-		          		<li ><a class="nav-link fw-bold" href="index.html">Home</a></li>
-		          		<li ><a class="nav-link fw-bold" href="understanding.html">Understanding</a></li>
-		          		<li ><a class="nav-link fw-bold" href="why-action.html">Why Action?</a></li>
-		          		<li ><a class="nav-link fw-bold" href="solutions.html">Solutions</a></li>
-		          		<li ><a class="nav-link fw-bold" href="renewable.html">Renewable Energy</a></li>
-	        		</ul>
-	      		</div>
-	    	</div>
-	  	</nav>
+			    <div class="collapse navbar-collapse" id="mainNav">
+			    	<ul class="navbar-nav ms-auto">
+			    		<!-- Home -->
+
+			      		<li ><a class="nav-link fw-bold home_item" href="home.html">Home</a></li>
+
+				        <!-- UNDERSTANDING DROPDOWN -->
+				        <li class="nav-item dropdown">
+				        	<a class="nav-link dropdown-toggle fw-bold text-white" href="understanding.html" data-bs-toggle="dropdown">
+				            Understanding
+				          	</a>
+				          	<ul class="dropdown-menu">
+				            	<li><a class="dropdown-item" href="understanding.html">Understanding Climate Change</a></li>
+				            	<li><a class="dropdown-item" href="causes.html">Causes of Climate Change</a></li>
+				          	</ul>
+				        </li>
+
+				        <!-- WHY ACTION DROPDOWN -->
+				        <li class="nav-item dropdown">
+				        	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
+				            Why Action?
+				          	</a>
+				          	<ul class="dropdown-menu">
+				          		<li><a class="dropdown-item" href="#">Why Climate Action is Critical</a></li>
+				            	<li><a class="dropdown-item" href="#">Effects of Climate Change</a></li>
+				          	</ul>
+				        </li>
+
+				        <!-- SOLUTIONS DROPDOWN -->
+				        <li class="nav-item dropdown">
+				          	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
+				            Solutions
+				          	</a>
+				          	<ul class="dropdown-menu">
+				            	<li><a class="dropdown-item" href="#">Solutions & Actions</a></li>
+				            	<li><a class="dropdown-item" href="#">Community & Local Actions</a></li>
+				          	</ul>
+				        </li>
+
+				        <!-- RENEWABLE DROPDOWN -->
+				        <li class="nav-item dropdown">
+				          	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
+				            Renewable Energy
+				          	</a>
+				          	<ul class="dropdown-menu">
+				            	<li><a class="dropdown-item" href="#">Renewable Energy & Technology</a></li>
+				            	<li><a class="dropdown-item" href="#">Individual Actions</a></li>
+				          	</ul>
+				        </li>
+				    </ul>
+		    	</div>
+		  	</div>
+		</nav>
+
 
 	  	<div class="container-fluid">
 

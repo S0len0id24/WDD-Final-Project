@@ -1,6 +1,34 @@
 /*KHANT SI THU HEIN's CSS WORK*/
 
-/*For Page (1) (Understanding Section)*/
+/*For Nav Bar*/
+/* Show dropdown on hover */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
+/* Dropdown styling */
+.dropdown-menu {
+    border-radius: 8px;
+}
+
+/*Home nav item*/
+.home_item {
+    color: white !important;
+}
+
+/* Fix dropdown auto-close on hover */
+.nav-item.dropdown:hover > a {
+    color: black !important;
+}
+
+/* Dropdown item hover background color */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e0e0e0 !important;  /* stronger grey */              
+}
+
+
+/*For Understanding Section mobile version layout*/
 
 @media (max-width: 768px) {
 
@@ -35,6 +63,7 @@
         margin-bottom: 2rem;
     }
 }
+
 
 
 /*For Page (2) (Causes Section)*/
