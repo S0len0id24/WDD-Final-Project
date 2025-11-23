@@ -35,3 +35,19 @@
         margin-bottom: 2rem;
     }
 }
+
+
+/*For Page (2) (Causes Section)*/
+
+/*  Resizing images for desktop */
+.causes-img {
+    width: 450px;     
+    height: auto;
+}
+
+
+/* Resizing last image */
+.last-img {
+    height: 350px;
+    width: 100%;
+}
