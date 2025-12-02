@@ -10,6 +10,24 @@
 
 	  	<!-- CSS link  -->
 	  	<link rel="stylesheet" href="style.css">
+
+	  	<!-- Font links -->
+		
+		<!-- Poppins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		
+		<!-- Montserrat -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		
+		<!-- Nunito -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
 	</head>
 	<body>
 
@@ -85,61 +103,126 @@
 		  	</div>
 		</nav>
 
-	  	<div class="container-fluid">
+	  
 
-		  	<h1 class="text-center my-3">Causes of Climate Change</h1>
-		  	<h3 class="text-center my-3">By KHANT SI THU HEIN</h3>
+		<!-- Title -->
+	    <div class="container text-center my-4">
+	        <h1>Causes Of Climate Change</h1>
+	        <h5 class="text-secondary">By Khant Si Thu Hein</h5>
+	    </div>
 
-		  	<!-- first section about two big images and two texts regarding to them -->
+	  	<div class="container text-center my-2 ">
+	  		<img src="images/Causes_Images/banner.jpg" class="img-fluid w-100 rounded shadow banner">
+	  	</div>
 
-		  	<div class="container-fluid my-5">.<!--  use margin + y axis to have some space between the title and top face of images--> 
+	  	<!-- FOUR CARDS FOR CAUSES SECTION -->
+		<div class="container my-5">
+		    <div class="row g-4">
 
-			    <div class="row ">
+		        <!-- Image 1 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+		                <img src="images/Causes_Images/img1.jpg" class="img-fluid rounded mb-3 card-img">
+		                <p class="my-3">
+		                    Burning fossil fuels like coal, oil, and natural gas releases large amounts of 
+		                    carbon dioxide into the atmosphere. This is the biggest human cause of climate change.
+		                </p>
+		            </div>
+		        </div>
 
-			    	<!-- xl is used to display for desktop(default) and 6 is 50% screen size-->
-			    	<!-- my is used to display margin+y axis as margin move from the top -->
+		        <!-- Image 2 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+		                <img src="images/Causes_Images/img2.jpg" class="img-fluid rounded mb-3 card-img">
+		                <p class="my-3">
+		                    Deforestation removes trees that absorb CO₂. When forests are cut down, more heat-trapping 
+		                    gases stay in the atmosphere, increasing global warming.
+		                </p>
+		            </div>
+		        </div>
 
-			    	<div class="col-xl-6 text-center">
-			      		<img src="images/Causes_Images/image1.jpg" class="img-fluid rounded causes-img" alt="Climate image 1 ">
-			      		<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-			    	</div>
+		        <!-- Image 3 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+		                <img src="images/Causes_Images/img3.jpg" class="img-fluid rounded mb-3 card-img">
+		                <p class="my-3">
+		                    Transportation is responsible for large CO₂ emissions. Cars, trucks, ships, and airplanes 
+		                    release greenhouse gases every day through fuel combustion.
+		                </p>
+		            </div>
+		        </div>
 
-				    <div class="col-xl-6 text-center ">
-				      	<img src="images/Causes_Images/image2.jpg" class="img-fluid rounded causes-img " alt="Climate image 2 ">
-				      	<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-				    </div>
-			  	</div>
-			</div>
+		        <!-- Image 4 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+		                <img src="images/Causes_Images/img4.jpg" class="img-fluid rounded mb-3 card-img">
+		                <p class="my-3">
+		                    Landfills produce methane as food waste and organic materials break down. Methane is a powerful greenhouse gas that contributes strongly to climate change.
+		                </p>
+		            </div>
+		        </div>
 
-			<!-- Section B -->
+		    </div>
+		</div>
 
-			<div class="container-fluid my-5">
-			  	<div class="row">
 
-				    
-				    <!-- xl is used to display for desktop(default) and 6 is 50% screen size-->
-			    	<!-- my is used to display margin+y axis as margin move from the top -->
+		<!-- FEEDBACK FORM SECTION -->
+		<!-- Reference From Bootstrap Website-->
+		<div class="container my-5">
+		    <h3 class="text-center mb-4">Your Opinion Matters</h3>
+		    <h6 class="text-center mb-4">Share what you think about the causes of climate change.</h6>
 
-				    <!-- Left side -->
-				    <div class="col-xl-6 text-center">
-				    	<img src="images/Causes_Images/image3.jpg" class="img-fluid rounded causes-img mb-3">
-				      	<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-				    </div>
+		    <form class="border p-4 rounded shadow-sm">
 
-			    	<!-- Right side -->
-			    	<div class="col-xl-6 text-center">
-			      		<img src="images/Causes_Images/image4.jpg" class="img-fluid rounded causes-img mb-3">
-			      		<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-			    	</div>
+		        <!-- Question 1 -->
+		        <div class="mb-3">
+		            <label class="form-label fw-bold">
+		                Which of the following do you believe is the biggest cause of climate change?
+		            </label>
+		            
+		            <div class="form-check">
+		                <input class="form-check-input" type="radio" name="cause" id="cause1">
+		                <label class="form-check-label" for="cause1">
+		                    Burning fossil fuels (coal, oil, gas)
+		                </label>
+		            </div>
 
-			  	</div>
-			</div>
+		            <div class="form-check">
+		                <input class="form-check-input" type="radio" name="cause" id="cause2">
+		                <label class="form-check-label" for="cause2">
+		                    Deforestation (cutting trees)
+		                </label>
+		            </div>
 
-			<!-- for the very last image section -->
+		            <div class="form-check">
+		                <input class="form-check-input" type="radio" name="cause" id="cause3">
+		                <label class="form-check-label" for="cause3">
+		                    Transportation (cars, planes, trucks)
+		                </label>
+		            </div>
 
-			<div class="container-fluid text-center my-5">
-				<img src ="images/Causes_Images/image5.png" class="img-fluid rounded last-img" >
-			</div>
+		            <div class="form-check">
+		                <input class="form-check-input" type="radio" name="cause" id="cause4">
+		                <label class="form-check-label" for="cause4">
+		                    Agriculture (livestock, methane)
+		                </label>
+		            </div>
+		        </div>
+
+		        <!-- Question 2 -->
+		        <div class="mb-3">
+		            <label for="feedback" class="form-label fw-bold">
+		                Write your ideas or suggestions:
+		            </label>
+		            <textarea class="form-control" id="feedback" rows="4" placeholder="Share your thoughts..."></textarea>
+		        </div>
+
+		        <!-- Submit Button -->
+		        <div class="text-center">
+		            <button type="submit" class="btn btn-success px-4">Submit</button>
+		        </div>
+
+		    </form>
 		</div>
 
 

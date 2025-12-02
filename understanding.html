@@ -10,6 +10,26 @@
 
 	  	<!-- CSS link  -->
 	  	<link rel="stylesheet" href="style.css">
+
+	  	<script src="mypage.js"></script>
+
+	  	<!-- Font links -->
+		
+		<!-- Poppins -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		
+		<!-- Montserrat -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		
+		<!-- Nunito -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		
 	</head>
 	<body>
 
@@ -86,67 +106,115 @@
 		</nav>
 
 
-	  	<div class="container-fluid">
+		<!-- Title -->
+	    <div class="container text-center my-4">
+	        <h1>Understanding Climate Change</h1>
+	        <h5 class="text-secondary">By Khant Si Thu Hein</h5>
+	    </div>
 
-		  	<h1 class="text-center my-3">Understanding Climate Change</h1>
-		  	<h3 class="text-center my-3">By KHANT SI THU HEIN</h3>
+
+	    <!-- images are taken from pixabay -->
+
+		<div class="container my-5">
+		    <div class="row g-4">
+
+		        <!-- Image 1 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+
+		                <img src="images/Understanding_Images/image1.jpg"
+		                     class="img-fluid rounded mb-3 card-img">
+
+		                <p class="my-3">
+		                    Climate change is a long-term shift in average temperatures and weather patterns
+		                    on Earth. While these changes can happen naturally, human activities such as
+		                    burning fossil fuels have greatly increased greenhouse gases, causing the planet
+		                    to warm faster than ever before.
+		                </p>
+
+		            </div>
+		        </div>
+
+		        <!-- Image 2 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+
+		                <img src="images/Understanding_Images/image2.jpg"
+		                     class="img-fluid rounded mb-3 card-img">
+
+		                <p class="my-3">
+		                    As the planet warms, we experience more extreme weather, such as stronger storms,
+		                    longer heatwaves, rising sea levels, and changes in rainfall. These impacts affect
+		                    our health, food, water supply, and natural environments all around the world.
+		                </p>
+
+		            </div>
+		        </div>
+
+		        <!-- Image 3 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+
+		                <img src="images/Understanding_Images/image3.jpg"
+		                     class="img-fluid rounded mb-3 card-img">
+
+		                <p class="my-3">
+		                    Scientists use satellites, weather stations, and computer models to track changes
+		                    in temperature, ice cover, and ocean levels. This research helps us understand how 
+		                    quickly the climate is changing and what might happen in the future.
+		                </p>
+
+		            </div>
+		        </div>
+
+		        <!-- Image 4 -->
+		        <div class="col-12 col-md-6">
+		            <div class="card shadow-sm h-100 text-center p-3">
+
+		                <img src="images/Understanding_Images/image4.jpg"
+		                     class="img-fluid rounded mb-3 card-img">
+
+		                <p class="my-3">
+		                    Learning about climate change is an important first step. When people understand
+		                    what is happening and why, they are more prepared to support solutions and make 
+		                    everyday choices that are better for the planet.
+		                </p>
+
+		            </div>
+		        </div>
+
+		    </div>
+		</div>
 
 
-		  	<!-- first section about two big images and two texts regarding to them -->
+	    <!-- SHOW MORE CONTENT SECTION -->
+		<div class="container text-center my-5">
+		    <button class="btn btn-success" id="showButton" onclick="showMore()">Show More</button>
 
-		  	<div class="container-fluid my-5">.<!--  use margin + y axis to have some space between the title and top face of images--> 
+		    
+		    <div id="moreText" style="display: none;" class="mt-4">
+		    	<div class="card shadow-lg text-center p-3">
 
-			    <div class="row ">
+			        <p class="mt-3">
+			            Climate change is one of the most important challenges of our generation. It affects
+			            the temperature of the planet, the stability of our weather patterns, and the health of
+			            ecosystems that support life. Scientists have observed that the Earth is warming faster
+			            now than at any time in modern history, and this rapid change is linked directly to human
+			            activities such as burning fossil fuels, cutting down forests, and producing large amounts
+			            of waste. These actions release greenhouse gases like carbon dioxide and methane, which trap
+			            heat in the atmosphere. As a result, we see more heatwaves, stronger storms, unusual rainfall,
+			            melting ice caps, and rising sea levels.
+			        </p>
 
-			    	<!-- xl is used to display for desktop(default) and 6 is 50% screen size-->
-			    	<!-- my is used to display margin+y axis as margin move from the top -->
+			        <p class="fw-bold mt-3">Watch this short video to learn more:</p>
 
-			    	<div class="col-xl-6 text-center pair-block">
-			      		<img src="images/Understanding_Images/image1.jpg" class="img-fluid rounded " alt="Climate image 1">
-			      		<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-			    	</div>
-
-				    <div class="col-xl-6  text-center pair-block">
-				      	<img src="images/Understanding_Images/image2.jpg" class="img-fluid rounded " alt="Climate image 2">
-				      	<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-				    </div>
-			  	</div>
-			</div>
-
-			<!-- Section B -->
-
-			<div class="container my-5">
-			  	<div class="row">
-
-				    
-				    <!-- md means median size for tablets/laptop -->
-				    <!-- mb means margin-bottom-->
-
-				    <!-- Left side -->
-				    <div class="col-md-6 text-center pair-block reverse">
-				    	
-			    		<img src="images/Understanding_Images/small1.jpg" class="img-fluid rounded mb-3" style="width: 400px;">
-			      		<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-			    	
-				    </div>
-
-			    	<!-- Right side -->
-			    	<div class="col-md-6 text-center pair-block reverse">
-		    			<img src="images/Understanding_Images/small2.jpg" class="img-fluid rounded mb-3" style="width: 400px;">
-		      			<p class="my-5">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-			      		
-			    	</div>
-
-			  	</div>
-			</div>
-
-			<!-- for the very last text section -->
-
-			<div class="container my-5">
-				<p class="text-center">
-			    	Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium.
-			  	</p>
-			</div>
+			        <a href="https://www.youtube.com/watch?v=EtW2rrLHs08" 
+			           target="youtube_video">
+			           ▶️YouTube🔴
+			        </a>
+		    	</div>
+		    </div>
+			
 		</div>
 
 
