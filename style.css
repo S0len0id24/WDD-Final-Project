@@ -28,6 +28,22 @@
     background-color: #e0e0e0 !important;  /* stronger grey */              
 }
 
+.understanding{
+    background-color: #FDFFE5;
+}
+
+.cause{
+    background-color: #FDFFE5;
+}
+
+.card{
+    background-color:  #F0FAEB;
+}
+
+/*logo*/
+.logoImg{
+    width: 60px;
+}
 
 /* Big title */
 h1 {
@@ -59,4 +75,6 @@ p {
 .banner {
     height: 350px;
 }
+
+
 

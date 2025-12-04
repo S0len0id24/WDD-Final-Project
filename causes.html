@@ -28,204 +28,209 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+		<script src="mypage.js"></script>
+
 	</head>
-	<body>
+	<body >
 
-		<!-- KHANT SI THU HEIN'S WORK (Page-2) -->
+		<div class="cause">
 
-		<!-- navbar-expand-lg is used for describing nav bar length form for desktop size -->
-	  	<nav class="navbar navbar-expand-lg bg-success" >
-	  		<div class="container">
-	  			<!-- Brand (TOPIC NAME) -->
-			    <a class="navbar-brand fw-bold text-white" href="home.html">
-			      <img src="images/logo/logo.png" width="60px">
-			      Climate Action
-			    </a>
+			<!-- KHANT SI THU HEIN'S WORK (Page-2) -->
 
-			    <!-- Mobile Toggle (Hamburger Menu)-->
-			    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-			      <span class="navbar-toggler-icon"></span>
-			    </button>
+			<!-- navbar-expand-lg is used for describing nav bar length form for desktop size -->
+		  	<nav class="navbar navbar-expand-lg bg-success" >
+		  		<div class="container">
+		  			<!-- Brand (TOPIC NAME) -->
+				    <a class="navbar-brand fw-bold text-white" href="home.html">
+				      <img class = "logoImg" src="images/logo/logo.png" alt="image logo of the website">
+				      Climate Action
+				    </a>
 
-		    	<!-- nav link -->
-	      		<!-- collapse means div to be hidden on small screens -->
-			    <div class="collapse navbar-collapse" id="mainNav">
-			    	<ul class="navbar-nav ms-auto">
-			    		<!-- Home -->
+				    <!-- Mobile Toggle (Hamburger Menu)-->
+				    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+				      <span class="navbar-toggler-icon"></span>
+				    </button>
 
-			      		<li ><a class="nav-link fw-bold home_item" href="home.html">Home</a></li>
+			    	<!-- nav link -->
+		      		<!-- collapse means div to be hidden on small screens -->
+				    <div class="collapse navbar-collapse" id="mainNav">
+				    	<ul class="navbar-nav ms-auto">
+				    		<!-- Home -->
 
-				        <!-- UNDERSTANDING DROPDOWN -->
-				        <li class="nav-item dropdown">
-				        	<a class="nav-link dropdown-toggle fw-bold text-white" href="understanding.html" data-bs-toggle="dropdown">
-				            Understanding
-				          	</a>
-				          	<ul class="dropdown-menu">
-				            	<li><a class="dropdown-item" href="understanding.html">Understanding Climate Change</a></li>
-				            	<li><a class="dropdown-item" href="causes.html">Causes of Climate Change</a></li>
-				          	</ul>
-				        </li>
+				      		<li ><a class="nav-link fw-bold home_item" href="home.html">Home</a></li>
 
-				        <!-- WHY ACTION DROPDOWN -->
-				        <li class="nav-item dropdown">
-				        	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
-				            Why Action?
-				          	</a>
-				          	<ul class="dropdown-menu">
-				          		<li><a class="dropdown-item" href="#">Why Climate Action is Critical</a></li>
-				            	<li><a class="dropdown-item" href="#">Effects of Climate Change</a></li>
-				          	</ul>
-				        </li>
+					        <!-- UNDERSTANDING DROPDOWN -->
+					        <li class="nav-item dropdown">
+					        	<a class="nav-link dropdown-toggle fw-bold text-white" href="understanding.html" data-bs-toggle="dropdown">
+					            Understanding
+					          	</a>
+					          	<ul class="dropdown-menu">
+					            	<li><a class="dropdown-item" href="understanding.html">Understanding Climate Change</a></li>
+					            	<li><a class="dropdown-item" href="causes.html">Causes of Climate Change</a></li>
+					          	</ul>
+					        </li>
 
-				        <!-- SOLUTIONS DROPDOWN -->
-				        <li class="nav-item dropdown">
-				          	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
-				            Solutions
-				          	</a>
-				          	<ul class="dropdown-menu">
-				            	<li><a class="dropdown-item" href="#">Solutions & Actions</a></li>
-				            	<li><a class="dropdown-item" href="#">Community & Local Actions</a></li>
-				          	</ul>
-				        </li>
+					        <!-- WHY ACTION DROPDOWN -->
+					        <li class="nav-item dropdown">
+					        	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
+					            Why Action?
+					          	</a>
+					          	<ul class="dropdown-menu">
+					          		<li><a class="dropdown-item" href="#">Why Climate Action is Critical</a></li>
+					            	<li><a class="dropdown-item" href="#">Effects of Climate Change</a></li>
+					          	</ul>
+					        </li>
 
-				        <!-- RENEWABLE DROPDOWN -->
-				        <li class="nav-item dropdown">
-				          	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
-				            Renewable Energy
-				          	</a>
-				          	<ul class="dropdown-menu">
-				            	<li><a class="dropdown-item" href="#">Renewable Energy & Technology</a></li>
-				            	<li><a class="dropdown-item" href="#">Individual Actions</a></li>
-				          	</ul>
-				        </li>
-				    </ul>
-		    	</div>
-		  	</div>
-		</nav>
+					        <!-- SOLUTIONS DROPDOWN -->
+					        <li class="nav-item dropdown">
+					          	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
+					            Solutions
+					          	</a>
+					          	<ul class="dropdown-menu">
+					            	<li><a class="dropdown-item" href="#">Solutions & Actions</a></li>
+					            	<li><a class="dropdown-item" href="#">Community & Local Actions</a></li>
+					          	</ul>
+					        </li>
 
-	  
+					        <!-- RENEWABLE DROPDOWN -->
+					        <li class="nav-item dropdown">
+					          	<a class="nav-link dropdown-toggle fw-bold text-white" href="#" data-bs-toggle="dropdown">
+					            Renewable Energy
+					          	</a>
+					          	<ul class="dropdown-menu">
+					            	<li><a class="dropdown-item" href="#">Renewable Energy & Technology</a></li>
+					            	<li><a class="dropdown-item" href="#">Individual Actions</a></li>
+					          	</ul>
+					        </li>
+					    </ul>
+			    	</div>
+			  	</div>
+			</nav>
 
-		<!-- Title -->
-	    <div class="container text-center my-4">
-	        <h1>Causes Of Climate Change</h1>
-	        <h5 class="text-secondary">By Khant Si Thu Hein</h5>
-	    </div>
+		  
 
-	  	<div class="container text-center my-2 ">
-	  		<img src="images/Causes_Images/banner.jpg" class="img-fluid w-100 rounded shadow banner">
-	  	</div>
-
-	  	<!-- FOUR CARDS FOR CAUSES SECTION -->
-		<div class="container my-5">
-		    <div class="row g-4">
-
-		        <!-- Image 1 -->
-		        <div class="col-12 col-md-6">
-		            <div class="card shadow-sm h-100 text-center p-3">
-		                <img src="images/Causes_Images/img1.jpg" class="img-fluid rounded mb-3 card-img">
-		                <p class="my-3">
-		                    Burning fossil fuels like coal, oil, and natural gas releases large amounts of 
-		                    carbon dioxide into the atmosphere. This is the biggest human cause of climate change.
-		                </p>
-		            </div>
-		        </div>
-
-		        <!-- Image 2 -->
-		        <div class="col-12 col-md-6">
-		            <div class="card shadow-sm h-100 text-center p-3">
-		                <img src="images/Causes_Images/img2.jpg" class="img-fluid rounded mb-3 card-img">
-		                <p class="my-3">
-		                    Deforestation removes trees that absorb CO₂. When forests are cut down, more heat-trapping 
-		                    gases stay in the atmosphere, increasing global warming.
-		                </p>
-		            </div>
-		        </div>
-
-		        <!-- Image 3 -->
-		        <div class="col-12 col-md-6">
-		            <div class="card shadow-sm h-100 text-center p-3">
-		                <img src="images/Causes_Images/img3.jpg" class="img-fluid rounded mb-3 card-img">
-		                <p class="my-3">
-		                    Transportation is responsible for large CO₂ emissions. Cars, trucks, ships, and airplanes 
-		                    release greenhouse gases every day through fuel combustion.
-		                </p>
-		            </div>
-		        </div>
-
-		        <!-- Image 4 -->
-		        <div class="col-12 col-md-6">
-		            <div class="card shadow-sm h-100 text-center p-3">
-		                <img src="images/Causes_Images/img4.jpg" class="img-fluid rounded mb-3 card-img">
-		                <p class="my-3">
-		                    Landfills produce methane as food waste and organic materials break down. Methane is a powerful greenhouse gas that contributes strongly to climate change.
-		                </p>
-		            </div>
-		        </div>
-
+			<!-- Title -->
+		    <div class="container text-center my-4">
+		        <h1>Causes Of Climate Change</h1>
+		        <h5 class="text-secondary">By Khant Si Thu Hein</h5>
 		    </div>
+
+		  	<div class="container text-center my-2 ">
+		  		<img src="images/Causes_Images/banner.jpg" class="img-fluid w-100 rounded shadow banner" alt="the banner cartoon image of showing climate change protest">
+		  	</div>
+
+		  	<!-- FOUR CARDS FOR CAUSES SECTION -->
+			<div class="container my-5">
+			    <div class="row g-4">
+
+			        <!-- Image 1 -->
+			        <div class="col-12 col-md-6">
+			            <div class="card shadow-sm h-100 text-center p-3">
+			                <img src="images/Causes_Images/img1.jpg" class="img-fluid rounded mb-3 card-img" alt="image of burning fossil fuels in factory">
+			                <p class="my-3">
+			                    Burning fossil fuels like coal, oil, and natural gas releases large amounts of 
+			                    carbon dioxide into the atmosphere. This is the biggest human cause of climate change.
+			                </p>
+			            </div>
+			        </div>
+
+			        <!-- Image 2 -->
+			        <div class="col-12 col-md-6">
+			            <div class="card shadow-sm h-100 text-center p-3">
+			                <img src="images/Causes_Images/img2.jpg" class="img-fluid rounded mb-3 card-img" alt="image of deforestation">
+			                <p class="my-3">
+			                    Deforestation removes trees that absorb CO₂. When forests are cut down, more heat-trapping 
+			                    gases stay in the atmosphere, increasing global warming.
+			                </p>
+			            </div>
+			        </div>
+
+			        <!-- Image 3 -->
+			        <div class="col-12 col-md-6">
+			            <div class="card shadow-sm h-100 text-center p-3">
+			                <img src="images/Causes_Images/img3.jpg" class="img-fluid rounded mb-3 card-img" alt="image of traffic pollution">
+			                <p class="my-3">
+			                    Transportation is responsible for large CO₂ emissions. Cars, trucks, ships, and airplanes 
+			                    release greenhouse gases every day through fuel combustion.
+			                </p>
+			            </div>
+			        </div>
+
+			        <!-- Image 4 -->
+			        <div class="col-12 col-md-6">
+			            <div class="card shadow-sm h-100 text-center p-3">
+			                <img src="images/Causes_Images/img4.jpg" class="img-fluid rounded mb-3 card-img" alt="image of landfills">
+			                <p class="my-3">
+			                    Landfills produce methane as food waste and organic materials break down. Methane is a powerful greenhouse gas that contributes strongly to climate change.
+			                </p>
+			            </div>
+			        </div>
+
+			    </div>
+			</div>
+
+
+			<!-- FEEDBACK FORM SECTION -->
+			<!-- Reference From Bootstrap Website-->
+			<div class="container my-5">
+			    <h3 class="text-center mb-4">Your Opinion Matters</h3>
+			    <h6 class="text-center mb-4">Share what you think about the causes of climate change.</h6>
+
+			    <form id="causeForm" class="border p-4 rounded shadow-sm" onsubmit="return validateForm()">
+
+			        <!-- Question 1 -->
+			        <div class="mb-3">
+			            <label class="form-label fw-bold">
+			                Which of the following do you believe is the biggest cause of climate change?
+			            </label>
+			            
+			            <div class="form-check">
+			                <input class="form-check-input" type="radio" name="cause" id="cause1">
+			                <label class="form-check-label" for="cause1">
+			                    Burning fossil fuels (coal, oil, gas)
+			                </label>
+			            </div>
+
+			            <div class="form-check">
+			                <input class="form-check-input" type="radio" name="cause" id="cause2">
+			                <label class="form-check-label" for="cause2">
+			                    Deforestation (cutting trees)
+			                </label>
+			            </div>
+
+			            <div class="form-check">
+			                <input class="form-check-input" type="radio" name="cause" id="cause3">
+			                <label class="form-check-label" for="cause3">
+			                    Transportation (cars, planes, trucks)
+			                </label>
+			            </div>
+
+			            <div class="form-check">
+			                <input class="form-check-input" type="radio" name="cause" id="cause4">
+			                <label class="form-check-label" for="cause4">
+			                    Agriculture (livestock, methane)
+			                </label>
+			            </div>
+			        </div>
+
+			        <!-- Question 2 -->
+			        <div class="mb-3">
+			            <label for="feedback" class="form-label fw-bold">
+			                Write your ideas or suggestions:
+			            </label>
+			            <textarea class="form-control" id="feedback" rows="4" placeholder="Share your thoughts..."></textarea>
+			        </div>
+
+			        <!-- Submit Button -->
+			        <div class="text-center">
+			            <button type="submit" class="btn btn-success px-4">Submit</button>
+			        </div>
+
+			    </form>
+			</div>
+
+
+		  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 		</div>
-
-
-		<!-- FEEDBACK FORM SECTION -->
-		<!-- Reference From Bootstrap Website-->
-		<div class="container my-5">
-		    <h3 class="text-center mb-4">Your Opinion Matters</h3>
-		    <h6 class="text-center mb-4">Share what you think about the causes of climate change.</h6>
-
-		    <form class="border p-4 rounded shadow-sm">
-
-		        <!-- Question 1 -->
-		        <div class="mb-3">
-		            <label class="form-label fw-bold">
-		                Which of the following do you believe is the biggest cause of climate change?
-		            </label>
-		            
-		            <div class="form-check">
-		                <input class="form-check-input" type="radio" name="cause" id="cause1">
-		                <label class="form-check-label" for="cause1">
-		                    Burning fossil fuels (coal, oil, gas)
-		                </label>
-		            </div>
-
-		            <div class="form-check">
-		                <input class="form-check-input" type="radio" name="cause" id="cause2">
-		                <label class="form-check-label" for="cause2">
-		                    Deforestation (cutting trees)
-		                </label>
-		            </div>
-
-		            <div class="form-check">
-		                <input class="form-check-input" type="radio" name="cause" id="cause3">
-		                <label class="form-check-label" for="cause3">
-		                    Transportation (cars, planes, trucks)
-		                </label>
-		            </div>
-
-		            <div class="form-check">
-		                <input class="form-check-input" type="radio" name="cause" id="cause4">
-		                <label class="form-check-label" for="cause4">
-		                    Agriculture (livestock, methane)
-		                </label>
-		            </div>
-		        </div>
-
-		        <!-- Question 2 -->
-		        <div class="mb-3">
-		            <label for="feedback" class="form-label fw-bold">
-		                Write your ideas or suggestions:
-		            </label>
-		            <textarea class="form-control" id="feedback" rows="4" placeholder="Share your thoughts..."></textarea>
-		        </div>
-
-		        <!-- Submit Button -->
-		        <div class="text-center">
-		            <button type="submit" class="btn btn-success px-4">Submit</button>
-		        </div>
-
-		    </form>
-		</div>
-
-
-	  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 	</body>
 </html>
